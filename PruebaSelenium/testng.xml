@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<suite name="Testng - Booking">
+    <test name="Ejecucion de Prueba Selenum">
+        <groups>
+            <run>
+                <include name = "successTests"/>
+                <include name = "failTests"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="PruebaSelenium.Prueba_Netflix"/>
+
+        </classes>
+
+
+    </test>
+
+</suite>
